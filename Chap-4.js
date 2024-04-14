@@ -3,10 +3,10 @@
 
 function outer() {
     var test = 100;
-    function Inner() {
+    function inner() {
         console.log(test);
     }
-    Inner();
+    inner();
 }
 
 outer(); //100
